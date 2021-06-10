@@ -8,16 +8,16 @@ const Header: React.FC = () => {
         <AppBar position="static">
             <Toolbar variant="dense">
                 <Typography variant="h5" color="inherit">
-                    MusicPlaylist-Table
+                    Digital-Wallet
                 </Typography>
                 <Box ml={4}>
-                    <Link to="/songs" className="menu-link">
-                        Songs
+                    <Link to="/" className="menu-link">
+                        Cards
                     </Link>
                 </Box>
                 <Box ml={4}>
-                    <Link to="/" className="menu-link">
-                        Playlists
+                    <Link to="/costs" className="menu-link">
+                        Costs
                     </Link>
                 </Box>
             </Toolbar>
