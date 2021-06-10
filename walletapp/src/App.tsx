@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/Header';
 import CostsTable from './components/CostsTable';
-import { Redirect, Route, Switch } from 'react-router';
+import { Redirect, Route, Switch } from 'react-router-dom';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <Header />
       <Switch>
         {/* <Route path="/" component={ } exact /> */}
-        <Route path="/songs" component={CostsTable} />
+        <Route path="/costs" component={CostsTable} exact />
         <Redirect to="/" />
       </Switch>
     </>

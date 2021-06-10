@@ -10,11 +10,11 @@ const Header: React.FC = () => {
                 <Typography variant="h5" color="inherit">
                     Digital-Wallet
                 </Typography>
-                <Box ml={4}>
+                {/* <Box ml={4}>
                     <Link to="/" className="menu-link">
                         Cards
                     </Link>
-                </Box>
+                </Box> */}
                 <Box ml={4}>
                     <Link to="/costs" className="menu-link">
                         Costs
